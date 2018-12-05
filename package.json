@@ -1,0 +1,21 @@
+{
+  "name": "block-relay",
+  "version": "0.1.0",
+  "description": "Monitors a Hyperledger Fabric channel and forwards the ledger state to a desired address.",
+  "main": "/src/main/lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/main/lib/index.js"
+  },
+  "author": "Robert Diebels",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "fabric-client": "^1.1.2",
+    "fs-extra": "^6.0.1",
+    "request": "latest"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0"
+  }
+}
